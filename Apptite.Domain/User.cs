@@ -20,7 +20,9 @@ namespace Apptite.Domain
         // public virtual string GoogleId { get; private set; }  Hora de implementar?
 
         #endregion
-        private User() { };
+
+        #region  --//Constructors//--
+        private User() { }
 
         internal User(string name, string surName, string login, string email, string password, string facebookId = null)
         {
@@ -31,6 +33,8 @@ namespace Apptite.Domain
             Password = password;
             FacebookId = facebookId;
         }
+
+        #endregion
     }
 }
 

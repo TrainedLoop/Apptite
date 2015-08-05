@@ -8,7 +8,7 @@ namespace Apptite.Domain.Builder
 {
     public class UserBuilder
     {
-
+        #region --//Properties//--
         private string Name;
         private string SurName;
         private string Login;
@@ -16,7 +16,11 @@ namespace Apptite.Domain.Builder
         private string Password;
         private string FacebookId;
 
+        #endregion
 
+
+
+        #region --//Insert Methods//--
         public UserBuilder WithName(string name)
         {
             if (name.Trim().Length < 2)
@@ -70,6 +74,10 @@ namespace Apptite.Domain.Builder
             return this;
         }
 
+        #endregion
+
+
+        #region --//Conversor//--
         public static implicit operator User(UserBuilder ub)
         {
 
@@ -86,5 +94,7 @@ namespace Apptite.Domain.Builder
             return new User(ub.Name, ub.SurName, ub.Login,ub.Email, ub.Password, ub.FacebookId);
 
         }
+
+        #endregion
     }
 }
