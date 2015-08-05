@@ -1,0 +1,9 @@
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\bin\Debug\Appitite.Domain.UnitTest.dll
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\bin\Debug\Appitite.Domain.UnitTest.pdb
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\bin\Debug\Apptite.Domain.dll
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\bin\Debug\Apptite.Domain.pdb
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.csprojResolveAssemblyReference.cache
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.dll
+D:\Projetos\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.pdb
