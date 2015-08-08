@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Apptite.Domain.Builder
@@ -17,6 +18,11 @@ namespace Apptite.Domain.Builder
         private string FacebookId;
 
         #endregion
+
+
+        private readonly Regex Emailregex = new Regex(@"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)" +
+                @"*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z", RegexOptions.IgnoreCase);
+
 
 
 
@@ -54,15 +60,20 @@ namespace Apptite.Domain.Builder
         {
             if (password != passwordConfirmation)
                 throw new ArgumentException("Senhas não conferem");
+            if (password.Trim().Length < 4)
+                throw new ArgumentException("Login Invalido Minimo 4 caracteres");
 
-#warning  inserir validacao de letra e numero???
+            //inserir validacao de letra e numero???
+
             Password = password;
             return this;
         }
 
         public UserBuilder SetEmail(string email)
         {
-#warning  inserir validacao
+
+            if (!Emailregex.IsMatch(email))
+                throw new ArgumentOutOfRangeException("Email Invalido");
             Email = email;
             return this;
         }
@@ -91,7 +102,7 @@ namespace Apptite.Domain.Builder
                 throw new ArgumentNullException("A senha está vazia");
 
 
-            return new User(ub.Name, ub.SurName, ub.Login,ub.Email, ub.Password, ub.FacebookId);
+            return new User(ub.Name, ub.SurName, ub.Login, ub.Email, ub.Password, ub.FacebookId);
 
         }
 
