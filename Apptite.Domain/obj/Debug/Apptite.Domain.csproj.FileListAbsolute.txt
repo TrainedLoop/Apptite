@@ -1,9 +1,0 @@
-D:\Projetos\Apptite\Apptite.Domain\bin\Debug\Apptite.Domain.dll
-D:\Projetos\Apptite\Apptite.Domain\bin\Debug\Apptite.Domain.pdb
-D:\Projetos\Apptite\Apptite.Domain\obj\Debug\Apptite.Domain.csprojResolveAssemblyReference.cache
-D:\Projetos\Apptite\Apptite.Domain\obj\Debug\Apptite.Domain.dll
-D:\Projetos\Apptite\Apptite.Domain\obj\Debug\Apptite.Domain.pdb
-D:\Projects\Apptite\Apptite.Domain\bin\Debug\Apptite.Domain.dll
-D:\Projects\Apptite\Apptite.Domain\bin\Debug\Apptite.Domain.pdb
-D:\Projects\Apptite\Apptite.Domain\obj\Debug\Apptite.Domain.dll
-D:\Projects\Apptite\Apptite.Domain\obj\Debug\Apptite.Domain.pdb
