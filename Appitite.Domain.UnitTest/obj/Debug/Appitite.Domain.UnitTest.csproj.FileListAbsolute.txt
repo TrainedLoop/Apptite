@@ -7,3 +7,10 @@ D:\Projetos\Apptite\Appitite.Domain.UnitTest\bin\Debug\Microsoft.VisualStudio.Qu
 D:\Projetos\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.csprojResolveAssemblyReference.cache
 D:\Projetos\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.dll
 D:\Projetos\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.pdb
+D:\Projects\Apptite\Appitite.Domain.UnitTest\bin\Debug\Appitite.Domain.UnitTest.dll
+D:\Projects\Apptite\Appitite.Domain.UnitTest\bin\Debug\Appitite.Domain.UnitTest.pdb
+D:\Projects\Apptite\Appitite.Domain.UnitTest\bin\Debug\Apptite.Domain.dll
+D:\Projects\Apptite\Appitite.Domain.UnitTest\bin\Debug\Apptite.Domain.pdb
+D:\Projects\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.csprojResolveAssemblyReference.cache
+D:\Projects\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.dll
+D:\Projects\Apptite\Appitite.Domain.UnitTest\obj\Debug\Appitite.Domain.UnitTest.pdb
